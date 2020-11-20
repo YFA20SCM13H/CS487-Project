@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -8,6 +8,7 @@
 </head>
 <body>
 <script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 <div class="header">
 	<div class="container">
     	<div class="title">
@@ -26,10 +27,10 @@
 		<div class="col-3 navmenu"> 
             <!-- This gets hidden on mobile. sidenav is the nav menu for mobile -->
             <ul>
-                <li><a href="index.html">Home Page</a></li>
-                <li><a href="undergraduate.html">Undergraduate Tip</a></li>
-                <li><a href="graduate.html">Graduate Tip</a></li>
-                <li><a href="universal.html">Universal Tip</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="undergraduate.html">Undergraduate Topic</a></li>
+                <li><a href="graduate.html">Graduate Topic</a></li>
+                <li><a href="universal.html">Universal</a></li>
             </ul>
 		</div>
 
@@ -47,32 +48,32 @@
 			<span class="sideNavSpan" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
 		</div>
 
-	<div class="col-6 content">
-	  <h1>Welcome</h1>
-	  <p>Our web app is designed to help children with autism to do some of the everyday thing they will encounter.
-        
-        We provide step by step information on to complete each task or provide information as a reminder, hope it will help.
-        </p>
-        <div class="menu">
-        	<p> To start choose the desired everyday task on the left side of the screen and lets get started! </p>
+        <div class="col-6 content">
+            <h1>Welcome</h1>
+            <p>
+                We provid conversation tips to help you out!
+            </p>
+
+
+            <h2> Random Tip </h2>
+            <!-- where the image is -->
+            <img src="images/Toilet1.jpg" id="image" alt="Picture Not Available" width="300" height="300" />
+            <!-- here is the text -->
+            <p id="nextText"> Step 1: Raise your hand (just leave class room if desperate)</p>
+            <td><input id="nextPic" type="image" src="images/Random.png" alt="Back" width="100" height="100" /></td>
+
         </div>
-        
-        <div class="onlymobileShow">
-        <p> To start press on the menu button it will show you the everyday tasks, choose the one you are currently doing and lets get started!</p></div>
-	</div>
 
 	<div class="col-3 right">
 	  <div class="aside">
-	    <h2 style="margin-top: 0px;">The National Autistic Society Helpline</h2>
-	    <p>08088004104</p>
-	    <h2>Website</h2>
-	    <p>www.Autism.org.uk</p>
-	    <h2>About Autism</h2>
-	    <p style="margin-bottom: 0px;">Around 700,000 people in the UK are on the autism spectrum. Together with their families, this means autism is a part of daily life for 2.8 million people.</p>
-	    <p style="margin-top: 0px; margin-bottom: 0px;">You are not alone. </p>
-	    	<div class="NASlogo">
-	    	<img src="NASlogo.png" alt="NAS Logo" width="200" height="123">
-	    	</div>
+	    <h2 style="margin-top: 0px;">Intro</h2>
+	    <p>It is okay to Stay Silent. Conversations should flow naturally. When you need help Social+ is here for you with the tips and ideas.</p>
+	    <h2>About Us</h2>
+	    <p>Social+ is made by 4 members for a project in the course CS487 of IIT</p>
+	    <h2>Contact Us</h2>
+        <p style="margin-bottom: 0px;">Email: *******@hotmail.com</p>
+	    <p style="margin-top: 0px; margin-bottom: 0px;">Phone: ************
+          </p>
 	  </div>
 	</div>
 
