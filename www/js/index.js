@@ -26,11 +26,11 @@
                  
                  if (counter == 1){
                     document.getElementById("image").src="images/Bed2.jpeg";
-                     document.getElementById('nextText').innerHTML ="Step 2: Drink a glass of water";
+                     document.getElementById('nextText').innerHTML ="Tip 2: Always try to be easy going when being approached";
                     }
                  if (counter == 2){
                      document.getElementById("image").src="images/Bed3.jpeg";
-                     document.getElementById('nextText').innerHTML ="Step 3: Set alarm for tomorrow"
+                     document.getElementById('nextText').innerHTML ="Tip 3: Be kind always "
                  }
                  
                  }
