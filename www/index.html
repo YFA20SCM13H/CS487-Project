@@ -3,8 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>Autism App</title>
+    <title>Social+</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
 <script type="text/javascript" src="cordova.js"></script>
@@ -31,6 +33,8 @@
                 <li><a href="undergraduate.html">Undergraduate Topic</a></li>
                 <li><a href="graduate.html">Graduate Topic</a></li>
                 <li><a href="universal.html">Universal</a></li>
+                <li id="myBtn"><a href="#">About Us</a></li>
+                <!-- <button id="myBtn">About Us</button> -->
             </ul>
 		</div>
 
@@ -41,6 +45,7 @@
                 <li><a href="undergraduate.html">Undergraduate Topic</a></li>
                 <li><a href="graduate.html">Graduate Topic</a></li>
                 <li><a href="universal.html">Universal</a></li>
+                <li><a href="mobile_aboutUs.html">About Us</a></li>
             </ul>		
 		</div>
 
@@ -49,9 +54,9 @@
 		</div>
 
         <div class="col-6 content">
-            <h1>Welcome</h1>
+            <h1>Welcome!</h1>
             <p>
-                We provid conversation tips to help you out!
+                We provide conversation tips to help you out!
             </p>
 
 
@@ -67,22 +72,73 @@
 	<div class="col-3 right">
 	  <div class="aside">
 	    <h2 style="margin-top: 0px;">Intro</h2>
-	    <p>It is okay to Stay Silent. Conversations should flow naturally. When you need help Social+ is here for you with the tips and ideas.</p>
-	    <h2>About Us</h2>
-	    <p>Social+ is made by 4 members for a project in the course CS487 of IIT</p>
-	    <h2>Contact Us</h2>
+	    <p style="text-align: justify;">It is okay to Stay Silent. Conversations should flow naturally.  When Students start off fresh in universities, they will have to meet a lot of new people and make new friends.<br><br> But there will always be a time where you want to talk with a specific person but find it to be difficult to find a topic to talk about. <br><br> When you need help Social+ is here for you with the tips and ideas and can support and also give new suggestions to users on topics they could use to get closer to others.
+        </p>
+	    <!-- <h2>About Us</h2>
+	    <p>Social+ is made by 4 members for a project in the course CS487 of IIT</p> -->
+	    <!-- <h2>Contact Us</h2>
         <p style="margin-bottom: 0px;">Email: *******@hotmail.com</p>
 	    <p style="margin-top: 0px; margin-bottom: 0px;">Phone: ************
-          </p>
+          </p> -->
 	  </div>
 	</div>
 
-	</div>
+    </div>
+            <div class="footer">
+                <p>Created by Group H for CS487</p>
+            </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p style="text-decoration: underline;">Social+ is made by 4 members for a project in the course CS487 of IIT</p>
+      
+          <p style="padding-bottom: 6px;">&#9679; Shenglong Shen A20437413</p>
+          <p style="padding-bottom: 6px;">&#9679; Morayooluwa Ogunsina A20407107</p>
+          <p style="padding-bottom: 6px;">&#9679; Yinting Hui A20454813</p>
+          <p style="padding-bottom: 6px;">&#9679; Hamza Tariq Khan A20454871</p>
+     
+    </div>
+  
+  </div>
+
+  <!--End of Modal -->
+
     </div>
 
 
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+     </script>
 
-	<script>
+	 <script>
 	function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 	}

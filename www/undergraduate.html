@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <title>Autism App</title>
+        <title>Social+</title>
         <link rel="stylesheet" href="index.css">
         <script src="jquery.touchSwipe.min.js"></script>
         
@@ -17,7 +17,7 @@
   				<h1>Social+</h1>
   			</div>
   			<div class="pagedesc">
-  				<h3>Bedtime</h3>
+  				<h3>Undergraduate Tips</h3>
   			</div>
   		</div>
 	</div>
@@ -52,24 +52,53 @@
 		<div class="col-6 content">
       		
       		<div class="navmenu">
-                <img src="images/Bed1.jpg" alt="Picture Not Available" width="300" height="300"/>
+                <!-- <img src="images/Bed1.jpg" alt="Picture Not Available" width="300" height="300"/>
         	    <p> Step 1: Change into Pyjamas</p>
           		<img src="images/Bed2.jpeg" alt="Picture Not Available" width="300" height="300"/>
           		<p> Step 2: Drink a glass of water </p>
           		<img src="images/Bed3.jpeg" alt="Picture Not Available" width="300" height="300"/>
-          		<p> Step 3: Set alarm for tomorrow</p>
-      		</div>
+				  <p> Step 3: Set alarm for tomorrow</p> -->
+				  <h2>Click the button to generate a random conversaton topic</h2>
+				  <button onclick="myFunction()">Click Me!</button>
+				  <input type="text" id="myText">
+			  </div>
+			  
+			  
         
     		<!-- show next part only on mobile app -->
-		    <div class="mobileBtn"><tr>
+		    <div class="mobileBtn">
+				<!-- <tr>
                <img src="images/Bed1.jpg" id="image" alt="Picture Not Available" width="300" height="300"/>
         	   <p id="nextText"> Step 1: Change into Pyjamas</p>
 		       <td><input id="backPic" type="image" src="images/Arrow%20Left.png" alt="Back" width="100" height="100"/></td>
-		       <td><input id="nextPic" type="image" src="images/Arrow%20Right.png" alt="Back" width="100" height="100"/></td></tr> 
-		    </div>  
+			   <td><input id="nextPic" type="image" src="images/Arrow%20Right.png" alt="Back" width="100" height="100"/></td></tr>  -->
+			   <h2>Click the button to generate a random conversaton topic</h2>
+				  <button onclick="myFunction1()">Click Me!</button>
+				  <input type="text" id="myText1">
+			</div>  
+			
+			
+
+			<!-- <script>
+				var number = 0;
+				function myFunction1() {
+				  var myArray = ["This", "Is", "A", "Sample", "Sentence"];
+				  
+				  var btn = document.getElementById("myText");
+
+				  btn.addEventListener("click",function(){
+					if(number < 4) {++number;}
+  					else {number = 0;}
+					console.log(number);
+					btn.value = myArray[number];
+				  });
+  
+									}
+			</script> -->
+			
 	    </div>
 
-		<div class="col-3 right">
+		<!-- <div class="col-3 right">
 	  	<div class="aside">
 	    	<h2 style="margin-top: 0px;">The National Autistic Society Helpline</h2>
 		    <p>08088004104</p>
@@ -82,7 +111,7 @@
 			    <img src="NASlogo.png" alt="NAS Logo" width="200" height="123">
 			</div>
 	 	</div>
-		</div>
+		</div> -->
 
 	</div>
 

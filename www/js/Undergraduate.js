@@ -60,3 +60,23 @@
                     counter = counter+1;
                 }
             }
+
+					var number = 0;
+			  function myFunction() {
+				  var myArray = ["This", "Is", "A", "Sample", "Sentence"];
+				  
+				document.getElementById("myText").value = myArray[number];
+				  if(number < 4) {++number;}
+				  else {number = 0;}
+                    console.log(number);
+              }
+              
+              function myFunction1() {
+                var myArray = ["This", "Is", "A", "Sample", "Sentence"];
+                
+              document.getElementById("myText1").value = myArray[number];
+                if(number < 4) {++number;}
+                else {number = 0;}
+                  console.log(number);
+            }
+			 
