@@ -25,16 +25,19 @@
                  counter = counter+1;
                  
                  if (counter == 1){
-                    document.getElementById("image").src="images/Dog2.jpg";
-                     document.getElementById('nextText').innerHTML ="Check if you have the poo bag with you";
+                     document.getElementById("image").src="images/pet.jpg";
+                     document.getElementById('nextText').innerHTML ="Do you have any pet?";
+                     document.getElementById('nextDetail').innerHTML = "Cute animals are good topic to show you have nice personality.";
                     }
                  if (counter == 2){
-                     document.getElementById("image").src="images/Dog3.jpeg";
-                     document.getElementById('nextText').innerHTML ="Check if you have the dog treats with you"
+                     document.getElementById("image").src="images/food.jpg";
+                     document.getElementById('nextText').innerHTML ="What is your favorite food?";
+                     document.getElementById('nextDetail').innerHTML = "Eating culture is huge and interesting. People love food.";
                  }
                  if (counter == 3){
-                     document.getElementById("image").src="images/Dog4.jpeg";
-                     document.getElementById('nextText').innerHTML ="Check if you have water with you"
+                     document.getElementById("image").src="images/music.jpg";
+                     document.getElementById('nextText').innerHTML ="What is your favorite kind of music?";
+                     document.getElementById('nextDetail').innerHTML ="Music without boundaries is a topic that understands people’s preferences and is very broad.";
                  }
                  if (counter == 4){
                      alert("This is the last slide");
@@ -44,16 +47,19 @@
             function reversePic(){
                 counter = counter-1;
                 if (counter == 0){
-                    document.getElementById("image").src="images/Dog1.jpg";
-                    document.getElementById('nextText').innerHTML = "Check if the you have the lead on the dog";}
-                
+                    document.getElementById("image").src="images/weather.jpg";
+                    document.getElementById('nextText').innerHTML = "How is the weather today?";
+                    document.getElementById('nextDetail').innerHTML ="Simple and casual.";
+                }
                 if (counter == 1){
-                    document.getElementById("image").src="images/Dog2.jpg";
-                    document.getElementById('nextText').innerHTML = "Check if you have the poo bag with you";
+                    document.getElementById("image").src="images/pet.jpg";
+                    document.getElementById('nextText').innerHTML ="Do you have any pet?";
+                    document.getElementById('nextDetail').innerHTML = "Cute animals are good topic to show you have nice personality.";
                 }
                 if (counter == 2){
-                    document.getElementById("image").src="images/Dog3.jpeg";
-                    document.getElementById('nextText').innerHTML = "Check if you have the dog treats with you";
+                    document.getElementById("image").src="images/food.jpg";
+                    document.getElementById('nextText').innerHTML ="What is your favorite food?";
+                    document.getElementById('nextDetail').innerHTML = "Eating culture is huge and interesting. People love food.";
                 }
                 if (counter == -1){
                     alert("This is the first slide");
